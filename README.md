@@ -1,6 +1,9 @@
 Basic discord bot made with python, for free music downloading.
 For educational purposes only!
 
+RIGHT NOW ONLY WORKS WITH CHROME 135.x.x.x, TO CHECK:
+GO to the 3 dots on the top right > Help > About Google Chrome
+
 
 YOU NEED TO USE CHROME, IF YOU DON'T WANT TO MESS AROUND WITH THE SETTINGS. I used the undetected_chromedriver to bypass cloudflare
 THIS ALSO USES PYTHON, SO MAKE SURE YOU HAVE THAT INSTALLED AND READY
