@@ -13,7 +13,7 @@ UNDETECTED_CHROMEDRIVER DOES NOT HIDE YOUR IP ADDRESS, SO YOU MIGHT NEED TO USE 
 
 
 In the terminal:
-git clone https://github.com/endtrastic/spotbot/
+git clone git@github.com:endtrastic/spotbot.git
 
 
 
