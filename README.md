@@ -48,15 +48,22 @@ TO RUN THE BOT, MAKE SURE IN THE TERMINAL, YOUR PATH ENDS WITH: bot/
 ```bash
 pwd
 ```
-To get there, on the main path enter: cd bot 
+To get there, on the main path enter: 
+
+```bash
+cd bot
+```
+
 To go back: 
 ```bash
 cd ..
 ```
 if you fucked up
 
-ONCE ON bot/
+ONCE ON THE PATH ENDING WITH: \bot
 ![pilt](https://github.com/user-attachments/assets/ca44b95e-2333-4887-adb2-e09dc36a50c6)
+
+RUN THIS:
 ```bash
 py -3.11 bots.py
 ```
