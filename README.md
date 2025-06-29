@@ -1,4 +1,6 @@
-Basic discord bot made with python, for free music downloading.
+Basic discord bot made with python, for free music downloading, cuz why not.
+
+
 For educational purposes only!
 
 RIGHT NOW ONLY WORKS WITH CHROME 135.x.x.x, TO CHECK:
@@ -13,16 +15,24 @@ UNDETECTED_CHROMEDRIVER DOES NOT HIDE YOUR IP ADDRESS, SO YOU MIGHT NEED TO USE 
 
 
 In the terminal:
+```bash
 git clone git@github.com:endtrastic/spotbot.git
-
+```
 
 
 THEN LOCATE THE PATH AND OPEN IT IN VS CODE OR WHATEVER YOU WANT TO USE!
 
 
 On the main path in the terminal run:
-pip install -r requirements.txt
 
+```bash
+pip install -r requirements.txt
+```
+!!!! OR (if the part before didn't work!)
+
+```bash
+py -3.11 -m pip install -r requirements.txt
+```
 
 AFTER THAT!
 
@@ -34,17 +44,32 @@ MAKE SURE TO SAVE THE FILE WITH THE INFO YOU ENTERED: CTRL + S for WINDOWS.
 
 
 TO RUN THE BOT, MAKE SURE IN THE TERMINAL, YOUR PATH ENDS WITH: bot/ 
-
+(To check path ending in the terminal, type this in the terminal ofc)
+```bash
+pwd
+```
 To get there, on the main path enter: cd bot 
-To go back: cd .. if you fucked up
+To go back: 
+```bash
+cd ..
+```
+if you fucked up
 
 ONCE ON bot/
-enter: python bots.py 
-maybe: python3 bots.py
+![pilt](https://github.com/user-attachments/assets/ca44b95e-2333-4887-adb2-e09dc36a50c6)
+```bash
+py -3.11 bots.py
+```
+
+You need to run this with python version 3.11!!!!
+(I ran into a few issues trying to run it on a different machine that had a python version > 3.11!!)
 
 WHEN SETUP GO ON YOUR DISCORD SERVER AND ENTER:
 !spt track_name
-example: !spt  https://open.spotify.com/track/1GoQ5EQ0ZNURRrJKdThflm
+example (THIS GOES INTO THE DISCORD SERVER WHERE YOU'VE SETUP YOUR BOT!!! NOT THE TERMINAL): 
+```bash
+!spt  https://open.spotify.com/track/1GoQ5EQ0ZNURRrJKdThflm
+```
 
 ![image](https://github.com/user-attachments/assets/59fc5c55-599e-4bb8-b518-545aad86fb57)
 
